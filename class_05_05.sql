@@ -41,7 +41,7 @@ select *
 from tb_class;
 
 insert into tb_registration(student_id,class_id,registration_date)values
-(tb_student(stduent_id=1),1,'2024-04-03'),(2,2,'2024-05-03'),(3,3,'2024-06-03');
+(1,1,'2024-04-03'),(2,2,'2024-05-03'),(3,3,'2024-06-03');
 
 desc tb_registration;
 select *
